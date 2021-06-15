@@ -1,7 +1,7 @@
 
 use static_init::{dynamic};
 
-#[dynamic(0)]
+#[dynamic()]
 pub static AFFT: AdditiveFFT = AdditiveFFT::initalize();
 
 
